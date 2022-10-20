@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Montserrat",sans-serif;
+    font-size: 14px;
+    background-color:hsl(30, 38%, 92%);
+}
+.container{
+    display: flex;
+    width:600px;
+    height: 460px;
+    margin:6em auto;
+    
+}
+.container .img{
+    border-radius: .7em 0 0 .7em;
+}
+.content{
+    background-color: hsl(0, 0%, 100%);
+    padding:3em 2em;
+    border-radius:0 .7em .7em 0;
+}
+.content h6{
+    
+    letter-spacing: 1em;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: hsl(228, 12%, 48%);
+}
+.hero h1{
+    margin: .6em 0;
+    font-family: "Fraunces",sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height:0.9em;
+}
+.hero p{
+    margin-bottom: 1.2em;
+    line-height: 1.7em;
+}
+.hero h4{
+    font-weight: 700;
+    font-size: 30px;
+   color:hsl(158, 36%, 37%); 
+}
+.hero h4 span{
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 16px;
+    color:hsl(228, 12%, 48%);
+}
+.hero button{
+    margin: 1.4em auto;
+    width: 100%;
+    border-radius: 0.5em;
+    border: none;
+    background-color:hsl(158, 36%, 37%) ;
+    color:hsl(0, 0%, 100%);
+    padding: 0.8em;
+    font-size: 16px;
+    font-weight: 700;
+}
+.hero button:hover{
+    color:hsl(158, 36%, 37%) ;
+    background-color:hsl(0, 0%, 100%) ;
+    border: 1px hsl(158, 36%, 37%) solid;
+    cursor: pointer;
+   
+
+}
+.hero button img{
+    color: hsl(0, 0%, 100%) ;
+    padding-right:.5em;
+}
+
+@media screen and (max-width:800px) {
+    .container {
+      display: block;
+      width: 70%;
+      height: 80vh;
+      margin: 1em auto ;
+    }
+    .container .img{
+        width: 100%;
+        height: 230px;
+        border-radius: .5em .5em 0  
+    }
+    .hero h1{
+        margin: .4em 0;
+        font-family: "Fraunces",sans-serif;
+        font-size:28px;
+        line-height:0.9em;
+    }
+    .hero button{
+        margin: 1.2em auto;
+        width: 100%;
+        border-radius: 0.5em;
+        border: none;
+        background-color:hsl(158, 36%, 37%) ;
+        color:hsl(0, 0%, 100%);
+        padding: 0.6em;
+        font-size: 16px;
+        font-weight: 700;
+    }
+  }
+
+
+
+    .attribution { font-size: 11px; text-align: center;}
+    .attribution a { color: hsl(228, 45%, 44%); }
